@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "title": "Voting System",
+    "owner": "Maria Monica Manlises",
+    "description": "The system is a web-based electronic voting platform for student elections that integrates a frontend built with HTML5, CSS3, JavaScript, and Handlebars; a Node.js backend; a MongoDB database; and the Ethereum blockchain via Web3.js. It supports two roles, voter and election administrator, enabling voter authentication, ballot submission, and administrative tasks such as voter and candidate registration. Voter credentials and cryptographic keys are generated, hashed, and encrypted before being stored in MongoDB. When a voter casts a ballot, it is signed using their private key, encoded, and submitted as a transaction to the Ethereum blockchain, ensuring integrity and authenticity. The system includes trust boundaries: a perimeter firewall, trusted communication between the web server and database, interaction with the Ethereum network, and use of external dependencies."
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Kyle Carlo Lasala",
+        "$$hashKey": "object:14"
+      },
+      {
+        "name": "Camron Evan Ong",
+        "$$hashKey": "object:16"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Voter Authentication",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0,
+        "$$hashKey": "object:18",
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "7c2565c6-59d3-4c6e-8783-8442d9885afd",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "MongoDB Student Voter\nInformation"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
+      }
+    ]
+  }
+}
